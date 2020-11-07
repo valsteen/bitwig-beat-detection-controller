@@ -1,0 +1,9 @@
+[versions]
+com-bitwig-extension-api = "2"
+org-jetbrains-kotlin-kotlin-stdlib = "1.6.10"
+org-jetbrains-kotlin-kotlin-stdlib-common = "1.6.10"
+
+[libraries]
+com-bitwig-extension-api = { module = "com.bitwig:extension-api", version.ref = "com-bitwig-extension-api" }
+org-jetbrains-kotlin-kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "org-jetbrains-kotlin-kotlin-stdlib" }
+org-jetbrains-kotlin-kotlin-stdlib-common = { module = "org.jetbrains.kotlin:kotlin-stdlib-common", version.ref = "org-jetbrains-kotlin-kotlin-stdlib-common" }
